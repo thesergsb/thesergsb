@@ -50,28 +50,10 @@
 			width:100%;
 			padding:0;
 			margin:0;
-			background-image: url("./images/balloons.jpg");
+			background-image: url("./images/SiteBackground.jpg");
 			background-size:cover;
 			background-position: center bottom;
 			background-repeat:none;
-		}
-		#port {
-			overflow: hidden;
-			position: relative;
-			height: 100%;
-			width:100%;
-			top:-100px;
-			max-height:100%;
-			max-width:100%;
-		}
-
-		.site_wrap wrap {
-			height:100%;
-			width:100%;
-			max-height:100%;
-			max-width:100%;
-			padding:0;
-			margin:0;
 		}
 
 		.site_wrap {
@@ -81,22 +63,6 @@
 			max-width:100%;
 			padding:0;
 			margin:0;
-		}
-
-		.parallax-layer {
-			max-height:100%;
-			max-width:100%;
-			height:100%;
-			width:100%;
-			padding:0;
-			margin:0;
-		}
-
-		#balloon {
-			position:absolute;
-			width:8%;
-			height:auto;
-			top:110%;
 		}
 
 		#hb {
@@ -118,57 +84,10 @@
 </head>
 
 <body>
-	<img id="balloon" src="./images/sergsballoon.png"/>
 
-	<div class="site_wrap wrap" onclick="message()">	
-		<div id="port">
-			<!-- Seven image layers, each layer slightly bigger than the one behind, making 'closer' layers move faster. -->
-			<img class="parallax-layer" src="./images/0.png" alt="" style="width:88%; height:88%;"/>
-			<img class="parallax-layer" src="./images/1.png" alt="" style="width:90%; height:90%;"/>
-			<img class="parallax-layer" src="./images/2.png" alt=""style="width:92%; height:92%;"/>
-			<img class="parallax-layer" src="./images/3.png" alt="" style="width:94%; height:94%;"/>
-			<img class="parallax-layer" src="./images/4.png" alt="" style="width:96%; height:96%;"/>
-			<img class="parallax-layer" src="./images/5.png" alt="" style="width:98%; height:98%;"/>
-			<img class="parallax-layer" src="./images/6.png" alt="" style="width:100%; height:100%;"/>
-		</div>
-	</div>
-	<div id="hb"><strong>Happy Birthday!</strong></div>
+	<div id="hb"><strong>TheSergsB.</strong></div>
 
 	<script src="./js/jquery.js"></script>
-	<script src="./js/jquery.parallax.js"></script>
-	<script type="text/javascript">
-		
-		jQuery(document).ready(function(){
-			// Declare parallax on layers
-			jQuery('.parallax-layer').parallax({
-				mouseport: jQuery("#port")
-			});
-			$('#parallax-false').css('background-image', "url(./md5)");
-		});
-
-		animateBalloon();
-
-		function animateBalloon() {
-			var balloonLeft = Math.random()*90 + '%';
-			$("#balloon").css("left",balloonLeft);
-			$("#balloon").animate({top:"-100%"},8000, function() {
-				$("#balloon").css("top","110%");
-				animateBalloon();
-			});
-		}
-
-	</script>
 	
-	<!-- Enable png transparency in IE6 -->
-	<!--[if lt IE 7]>
-	<script type="text/javascript" src="js/jquery.ifixpng.js"></script>
-	<script type="text/javascript">jQuery(document).ready(function(){ jQuery("img[src$='png']".ifixpng(); });</script>
-	<![endif]-->
 </body>
-<script>
-	function message() {
-		alert('Your password for the Dreamhost, Heroku, and Gmail (sergsbalanovich@gmail.com) attached to this website is for you to crack. Hacky Birthday!');
-	}
-
-</script>
 </html>
