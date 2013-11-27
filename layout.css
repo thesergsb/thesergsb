@@ -80,7 +80,7 @@ body {
   position:absolute;
   width:58%;
   height:60%;
-  left:25%;
+  left:20%;
   padding-top:8%;
   /*z-index:-1;*/
 }
@@ -93,7 +93,7 @@ body {
   margin-top:2%;
   width:25%;
   height:50%;
-  left:23%;
+  left:18%;
   top:40%;
   padding:1.5%;
   float:left;
