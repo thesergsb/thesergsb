@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="author" content="" />
-	<meta name="description" content="" />
-	
-	<title>TheSergsB</title>
-	
-	<script>document.documentElement.className = 'js';</script>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-	<!-- Force latest IE rendering engine & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="stylesheet" type="text/css" href="./layout.css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
+    <title>TheSergsB</title>
 
-	<div id="headerbar">
-		<div id="title"><strong>The Sergs B.</strong></div>
-		<div id="subtitle">Cubing Essentials</div>
-	</div>
-	<div class="adwrapper">
-		<div class="ad">
-			AD 1 HERE
-		</div>
-		<div class="ad">
-			AD 2 HERE
-		</div>
-	</div>
-	<div id="video">
-		<iframe width="100%" height="100%" src="//www.youtube.com/embed/MaltgJGz-dU" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div id="toolbar">
-	<img id="toolicon" src="http://a.tgcdn.net/images/products/zoom/rubix_cube.jpg"></img>
-	<img id="toolicon" src="http://i.haymarket.net.au/News/rubiks-cube-2x2.jpg"></img>
-	<img id="toolicon" src="http://www.smarterpuzzles.com/images/img_4x4cube_large.jpg"></img>
-	<div id="arrow"></div>
-	</div>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-	<script src="./js/jquery.js"></script>
-	<script src="./js/slide.js"></script>
+    <!-- Add custom CSS here -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+    <div id="wrapper">
+      
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <img id = "logo" src="http://www.redditstatic.com/about/assets/reddit-alien.png">
+          <li class="sidebar-brand"><a href="#">TheSergsB</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Shortcuts</a></li>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Interactive Cube Solver
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.</p>
+            </div>
+            <div class="col-md-6">
+              <p class="well">The template still uses the default Bootstrap rows and columns.</p>
+            </div>
+            <div class="col-md-6">
+              <p class="well">But the full-width layout means that you wont be using containers.</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">Three Column Example</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">Three Column Example</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">You get the idea! Do whatever you want in the page content area!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
 	
-</body>
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Menu Toggle -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    </script>
+  </body>
 </html>
