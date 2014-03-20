@@ -189,7 +189,7 @@ body {
   -webkit-text-size-adjust: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 88px;
+  padding-top: 0px;
 }
 h1, h2, h3, h4, h5, h6, legend {
   margin:0;
@@ -197,8 +197,8 @@ h1, h2, h3, h4, h5, h6, legend {
   font-family: 'Open Sans', sans-serif;
 }
 h1 {
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 35px;
+  line-height: 35px;
   font-weight: 300;
   font-style: normal;
   text-align:center;
@@ -536,7 +536,7 @@ hr {
 /* HEADER
 ================================================== */
 #mainHeader{background:#eee;}
-.navbar-brand{padding-top:30px;padding-left: 0;}
+.navbar-brand{padding-top:0px;padding-left: 0;}
 
 
 .fixedHeader {
