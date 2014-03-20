@@ -1,12 +1,12 @@
 #wrapper {
-  padding-left: 250px;
+  padding-left: 30%;
   transition: all 0.4s ease 0s;
 }
 
 #sidebar-wrapper {
-  margin-left: -250px;
-  left: 250px;
-  width: 250px;
+  margin-left: -30%;
+  left: 30%;
+  width: 30%;
   background: #000;
   position: fixed;
   height: 100%;
@@ -35,54 +35,17 @@
   width: 24%;
 }
 
-#scoreOutput {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 20px;
-  width: 75%;
-}
-
-#scoreValue {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 40px;
-  font-color: blue;
-}
-
-#scoreOutput2 {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 20px;
-  width: 75%;
-}
-
-#scoreOutput3 {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 20px;
-  width: 75%;
-}
-
-#scoreOutput4 {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 20px;
-  width: 75%;
-}
-
-#scoreValue2 {
-  padding-top: 4%;
-  padding-left: 2%;
-  font-size: 40px;
-  font-color: blue;
-}
-
-
-#yourcode {
-  visibility: hidden;
-}
-
 #largeTextbox {
+  font-size:25px;
+  height:70px;
+  left:0;
+  line-height:33px;
+  padding:8px 8px 7px;
+  top:0;
+  width: 75%;
+}
+
+.largeTextbox {
   font-size:25px;
   height:70px;
   left:0;
@@ -128,7 +91,7 @@
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -159,7 +122,7 @@
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   line-height: 60px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -203,12 +166,12 @@
 
 #wrapper.active {
   position: relative;
-  left: 250px;
+  left: 100%;
 }
 
 #wrapper.active #sidebar-wrapper {
-  left: 250px;
-  width: 250px;
+  left: 100%;
+  width: 100%;
   transition: all 0.4s ease 0s;
 }
 
