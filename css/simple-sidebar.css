@@ -1,6 +1,12 @@
 #wrapper {
   padding-left: 30%;
   transition: all 0.4s ease 0s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #sidebar-wrapper {
