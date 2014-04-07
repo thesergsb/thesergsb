@@ -285,10 +285,10 @@ h1.bigTitle:after, .boxWrapper h1:after, .pricingBloc h1:after, .team h1:after, 
   content:none
 }
 h3, legend {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   margin-bottom: 14px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.06em;
 }
 h4 {
@@ -606,7 +606,7 @@ hr {
     display: block;
   }
   .navbar-nav > li > a {
-    padding-top:0;
+    padding-top:50px;
     padding-bottom:0;
     height:88px;
   }
@@ -776,7 +776,7 @@ margin-bottom:-44px;
   #flexHome {
     margin-top:88px;
     }
-  .flexslider .slides > li {height:250px;}
+  .flexslider .slides > li {height:350px;}
 }
 }
 

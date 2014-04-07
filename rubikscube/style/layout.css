@@ -537,10 +537,12 @@ h6 {
 .footer2 {
   color:#777;
   font-size:11px;
+  padding-left: 20px;
 }
 .footer3 {
   color:#777;
-  font-size:11px;
+  font-size:20px;
+  padding-left: 20px;
 }
 .footer4 {
   color:#999;

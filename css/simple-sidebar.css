@@ -11,9 +11,10 @@
 }
 
 #sidebar-wrapper {
-  margin-left: -30%;
-  left: 30%;
-  width: 30%;
+  margin-left: -350px;
+  left: 350px;
+  width: 350px;
+  min-width: 350px;
   background: #000;
   position: fixed;
   height: 100%;
@@ -23,10 +24,10 @@
 }
 
 #sidebar-wrapper-right {
-  margin-right: -10%;
+  margin-right: -200px;
   padding-top: 110px;
-  right: 10%;
-  width: 10%;
+  right: 200px;
+  width: 200px;
   background: #fff;
   position: fixed;
   height: 100%;
