@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>TheSergsB's Cubing Essentials</title>
+    <meta name="description" content="TheSergsB">
+    <meta name="author" content="Serguei Balanovich">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+    ================================================== -->
+    <script type="text/javascript" src="rubikscube/lib/virtualrubik.js"></script>
+    <script type="text/javascript">includeVirtualRubik("rubikscube/lib");attachVirtualRubik();</script>
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+     <link type="text/css" rel="stylesheet" href="css/simple-sidebar.css">
+    <!-- web font  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+    <!-- plugin css  -->
+    <link rel="stylesheet" type="text/css" href="js-plugin/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="js-plugin/css/magnific-popup.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="js-plugin/css/flexslider.css" />
+    <link rel="stylesheet" type="text/css" href="js-plugin/css/jquery.pageslide.css" />
+    <link rel="stylesheet" type="text/css" href="rubikscube/style/reset.css">
+    <link rel="stylesheet" type="text/css" href="rubikscube/style/960.css">
+    <link rel="stylesheet" type="text/css" href="rubikscube/style/text.css">
+    <link rel="stylesheet" type="text/css" href="rubikscube/style/layout.css">
+    <!-- Owl carousel-->
+    <link rel="stylesheet" href="js-plugin/css/owl.carousel.css">
+    <link rel="stylesheet" href="js-plugin/css/owl.theme.css">
+    <!-- icon fonts -->
+    <link type="text/css" rel="stylesheet" href="font-icons/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="font-icons/custom-icons-ie7.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <script src="js/modernizr-2.6.1.min.js"></script>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+  </head>
+  <body data-spy="scroll" data-target="#scrollTarget" data-offset="150">
+      <!-- Primary Page Layout 
+    ================================================== -->
+    <!-- globalWrapper -->
+    <div id="wrapper" class="localscroll">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <div class="parent_9">
+        <canvas id="canvas1" class="virtualrubik" width="350" height="350" stickersImage="images/RubiksCube_1024.gif"></canvas>
+          <p class="footer3">
+            <button class="btn btn-default btn-xs"
+            onclick="document.getElementById('canvas1').virtualrubik.reset();">Reset</button>
+            <button class="btn btn-default btn-xs"
+            onclick="document.getElementById('canvas1').virtualrubik.scramble(21,!event.altKey&&!event.ctrlKey);">Scramble</button>    
+          </p>
+        <div class="footer2">
+          <p ><strong>To rotate the cube:</strong><br>Drag the area behind the cube into the desired direction.</p>
+          <p><strong>To twist the cube:</strong><br>Drag a part into the desired direction or  click on a part.</p>
+          <ul>
+            <li>Click twists into clockwise direction.</li>
+            <li>Alt+Click or Ctrl+Click twists into the opposite direction.</li>
+            <li>Shift+Click twists by 180°.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="sidebar-wrapper-right">
+      </br></br>
+      <div>
+        <h1>Video</h1>
+      </div>
+      </br></br></br></br></br></br>
+      <div>
+        <h1>Social</h1>
+      </div>
+    </div>
+    <!-- globalWrapper -->
+    <div id="globalWrapper" class="localscroll">
+      <!-- header -->
+      <header id="mainHeader" class="navbar-fixed-top" role="banner">
+        <div class="container">
+          <nav class="navbar navbar-default scrollMenu" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
+                <ul class="nav navbar-nav pull-left">
+                  <li class="active"><a href="#home">Get a Cube</a> </li>
+                  <li><a href="#edges">Edges</a> </li>
+                  <li><a href="#corners">Corners</a> </li>
+                </ul>
+              </div>
+
+            </nav>
+          </div>
+        </header>
+        <!-- header -->
+        <!-- content -->
+        <section id="home" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 col-sm-6">
+                <div class="flexslider" id="flexHome">
+                  <ul class="slides">
+                    <li>
+                      <h2>Hello!</h2>
+                      <h3>Welcome to my new website! By June 2014, this will be a fully interactive cubing tutorial so be sure to check back often!</h3>
+                      <h3>In the meantime, feel free to play around with the virtual Rubik's Cube on the left there</h3>
+                      <h3>Or go ahead and pick up a physical cube for a cheap price on Amazon:</h3>
+                      <a href="http://www.amazon.com/gp/product/B00081RYNC/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00081RYNC&linkCode=as2&tag=thecubess-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00081RYNC&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=thecubess-20" ><img src="https://images-na.ssl-images-amazon.com/images/I/51FRvLz4yHL._SL110_.jpg" alt="" height="100" width="100"></a>
+                    </li>
+                    </li>
+                  </ul>
+                </div> 
+              </div>             
+            </div>
+          </div>
+        </section>
+
+          <!-- content -->
+            <section  id="footerRights">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p>Copyright © 2014 <a href="http://www.thesergsb.com" target="blank">Sergs B.</a> / All rights reserved.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End footer -->
+          </div>
+          <!-- global wrapper -->
+        </div>
+    <!-- End Document 
+    ================================================== -->
+    <script type="text/javascript" src="js-plugin/js/respond.min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery-ui-1.8.23.custom.min.js"></script>
+    <!-- third party plugins  -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.easing.1.3.js"></script>
+
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.form.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.stellar.min.js"></script>
+    <!-- <script type="text/javascript" src="js-plugin/smoothscroll/SmoothScroll.js"></script> -->
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.pageslide-custom.js"></script>
+    <script type="text/javascript" src="js-plugin/js/jquery/jquery.sharrre-1.3.4.min.js"></script>
+
+    <script type="text/javascript" src="js-plugin/js/owl.carousel.min.js"></script>
+
+
+    <!-- Custom  -->
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+  </html>
